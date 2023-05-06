@@ -1,0 +1,524 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683317580981657, "dur":84916, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317581066582, "dur":494, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683317581067100, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683317581067122, "dur":479, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683317581067677, "dur":825, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317581068502, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591145810, "dur":162, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591145972, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146004, "dur":497, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146501, "dur":52, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146553, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146560, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146598, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146605, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146620, "dur":52, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146672, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146683, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146689, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146705, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146711, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146724, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146728, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146742, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591146780, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591160014, "dur":31923, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683317581068356, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581068575, "dur":2466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581071041, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683317581071100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581097596, "dur":57852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683317581155577, "dur":113146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683317581268733, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581268756, "dur":26206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1683317581294989, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683317581295041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581295053, "dur":330292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1683317581625389, "dur":29717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581655120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581681423, "dur":37203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581718639, "dur":101445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581820091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581820101, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581822059, "dur":50473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581872554, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317581872567, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317581874932, "dur":140214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582015153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582015163, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582016493, "dur":45037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582061536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582061545, "dur":16310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582077885, "dur":141374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582219264, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582219290, "dur":66087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582285389, "dur":144330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582429723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582429748, "dur":87286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582517061, "dur":104231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582621298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582621305, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582622151, "dur":52181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582674338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582674348, "dur":193697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582868092, "dur":43429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582911527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582911534, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582913298, "dur":34461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582947765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582947773, "dur":5367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582953153, "dur":23696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317582976856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317582976867, "dur":162951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583139832, "dur":114684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583254520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317583254528, "dur":130838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583385395, "dur":136688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583522090, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317583522126, "dur":17440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583539582, "dur":269176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583808766, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317583808778, "dur":23093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317583831899, "dur":177856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317584009761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584009769, "dur":35751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683317584045583, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683317584045615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584045647, "dur":33679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1683317584079343, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683317584079361, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584079365, "dur":5051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683317584084431, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683317584084447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584084474, "dur":489784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683317584574283, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683317584574314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584574329, "dur":153751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683317584728093, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683317584728107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683317584728111, "dur":427147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683317585155274, "dur":5990591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581068090, "dur":443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581068535, "dur":2421, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581070967, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683317581070974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581071898, "dur":3762, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683317581075667, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683317581075696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581097364, "dur":58578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1683317581155951, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683317581156789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581156796, "dur":137740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683317581294563, "dur":19216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683317581313804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317581313817, "dur":146515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1683317581460355, "dur":602432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683317582062791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582062798, "dur":15815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683317582078667, "dur":36814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582115506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582115514, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582116330, "dur":40015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582156350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582156357, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582157274, "dur":54711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582211991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582211999, "dur":73222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582285239, "dur":59018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582344262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582344269, "dur":7818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582352105, "dur":54679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582406788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582406795, "dur":110228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582517046, "dur":159725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582676779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582676790, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582681306, "dur":61821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582743132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582743141, "dur":125579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582868737, "dur":94302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317582963048, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317582963151, "dur":174523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583137686, "dur":250997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583388688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317583388696, "dur":26102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583414812, "dur":155259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583570076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317583570084, "dur":24089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583594195, "dur":123957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583718158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317583718168, "dur":41225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317583759414, "dur":810961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317584570394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584570403, "dur":93009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683317584663432, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683317584663455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584663494, "dur":55346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683317584718867, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683317584718898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584718905, "dur":52384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683317584771313, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683317584771337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584771346, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683317584773538, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683317584773620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584773632, "dur":119329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1683317584892999, "dur":4812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683317584897815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683317584897822, "dur":257717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1683317585155550, "dur":5990518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581068255, "dur":311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581068567, "dur":2457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581071025, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683317581071088, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581075671, "dur":384677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683317581460374, "dur":54998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683317581515377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581515384, "dur":53386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683317581568783, "dur":42689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581611478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581625410, "dur":74314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581699747, "dur":141731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581841486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581841495, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581846134, "dur":74062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581920205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581920215, "dur":25350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581945588, "dur":47317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317581992911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317581992919, "dur":17058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582010019, "dur":69530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582079555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582079564, "dur":30222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582109797, "dur":77438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582187241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582187250, "dur":97323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582284600, "dur":71527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582356132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582356139, "dur":150958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582507113, "dur":37891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582545007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582545014, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582546175, "dur":141569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582687751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582687760, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582688729, "dur":71009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582759764, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582759773, "dur":108752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582868542, "dur":61537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582930083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317582930091, "dur":5485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317582935586, "dur":209336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583144926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317583144954, "dur":119296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583264278, "dur":56837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583321120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317583321128, "dur":64399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583385574, "dur":424870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583810448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317583810453, "dur":23120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583833589, "dur":49384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583882978, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317583882985, "dur":29605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317583912610, "dur":4178767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317588091386, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683317588091403, "dur":33507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683317588124944, "dur":3021067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581068480, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581068582, "dur":2392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581070976, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683317581071096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581097381, "dur":58615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683317581156235, "dur":112461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683317581268703, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581268756, "dur":26326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1683317581295107, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1683317581295149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317581295155, "dur":165001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1683317581460184, "dur":9631754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683317591091947, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683317591091961, "dur":53735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683317591145728, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1683317591145734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581068604, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581068604, "dur":2417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581071021, "dur":29021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683317581100047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581100108, "dur":56683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683317581156811, "dur":111888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683317581268705, "dur":222, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581268980, "dur":26712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1683317581295711, "dur":234991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581530707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581567678, "dur":140215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581707920, "dur":102067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581809995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581810007, "dur":3820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581813846, "dur":94450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581908303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317581908313, "dur":35672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317581944005, "dur":157345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582101354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582101361, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582109342, "dur":37846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582147215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582147226, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582148446, "dur":49606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582198057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582198065, "dur":87337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582285420, "dur":54953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582340380, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582340426, "dur":11615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582352059, "dur":47762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582399826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582399832, "dur":117023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582516880, "dur":144690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582661576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582661583, "dur":19418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582681014, "dur":69605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582750664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317582750685, "dur":118171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317582868873, "dur":387060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583255935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317583255939, "dur":129401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583385368, "dur":80633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583466009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317583466024, "dur":128124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583594172, "dur":102249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583696427, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317583696449, "dur":62521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583758995, "dur":224221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317583983221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317583983229, "dur":62301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317584045565, "dur":179734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317584225303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317584492388, "dur":169717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683317584662188, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683317584662225, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683317584662245, "dur":563158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1683317585225415, "dur":5920360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581068781, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581068781, "dur":2231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581071012, "dur":48183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683317581119200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581119208, "dur":37079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1683317581156419, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683317581156552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581156648, "dur":303777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683317581460446, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683317581460492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581460749, "dur":168572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683317581629342, "dur":94744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317581724109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581724116, "dur":10861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317581734990, "dur":218332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317581953327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317581953364, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317581954796, "dur":60396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582015196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582015202, "dur":17810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582033029, "dur":17077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582050117, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582050130, "dur":37359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582087503, "dur":35612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582123120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582123126, "dur":8651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582131791, "dur":107148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582238944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582238952, "dur":46094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582285064, "dur":36947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582322019, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582322028, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582323142, "dur":60218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582383365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582383397, "dur":133540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582516955, "dur":38347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582555306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582555313, "dur":48743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582604069, "dur":72702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582676780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582676790, "dur":4447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582681263, "dur":86402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582767674, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582767687, "dur":100888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582868592, "dur":95904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582964499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317582964509, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317582965643, "dur":269537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583235186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317583235197, "dur":150730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583385941, "dur":92514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583478461, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317583478478, "dur":60872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583539371, "dur":254441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583793819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317583793833, "dur":35763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583829624, "dur":96360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583925990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317583926000, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583927986, "dur":49722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583977714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317583977723, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317583980305, "dur":73956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317584054272, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317584054286, "dur":24938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683317584079254, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683317584079276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683317584079281, "dur":3800282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683317587879580, "dur":3266445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581068935, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581068935, "dur":2022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581070967, "dur":48571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1683317581119541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581152917, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1683317581157018, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683317581157054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581195434, "dur":99846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1683317581295298, "dur":249920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581545222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581567680, "dur":133153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581700878, "dur":110092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581810978, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581811024, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581814668, "dur":84992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581899669, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317581899683, "dur":44031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317581943768, "dur":126418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582070192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582070201, "dur":7398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582077632, "dur":60112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582137750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582137760, "dur":15264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582153037, "dur":72214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582225254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582225260, "dur":59772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582285052, "dur":61590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582346646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582346653, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582352049, "dur":98065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582450118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582450143, "dur":66827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582516985, "dur":116714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582633709, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582633736, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582634513, "dur":57363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582691883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317582691889, "dur":176593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317582868503, "dur":173878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583042387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583042395, "dur":94908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583137322, "dur":17164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583154491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583154498, "dur":109603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583264118, "dur":165517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583429640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583429646, "dur":109925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583539586, "dur":47361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583586966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583586978, "dur":13549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583600541, "dur":152843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583753392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583753402, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583759875, "dur":61180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583821059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583821087, "dur":9329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583830461, "dur":79628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583910095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317583910105, "dur":12461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317583922585, "dur":268652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317584191241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317584191248, "dur":20880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683317584212147, "dur":54517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1683317584266668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317584266674, "dur":226345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1683317584493051, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683317584493085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317584493099, "dur":145259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683317584638387, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683317584638410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683317584638432, "dur":3670726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683317588309204, "dur":2836714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581069093, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581069093, "dur":1927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581071021, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683317581071503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581075677, "dur":80982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683317581156718, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683317581157466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581195621, "dur":99611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683317581295251, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1683317581295287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581295292, "dur":167318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1683317581462630, "dur":150770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581613407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581625458, "dur":75010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581700496, "dur":126593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581827095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581827105, "dur":17828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581844955, "dur":82759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581927720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317581927753, "dur":16560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317581944335, "dur":57633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582001973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582001981, "dur":8157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582010158, "dur":60520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582070681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582070686, "dur":38621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582109335, "dur":110288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582219730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582219735, "dur":65569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582285329, "dur":42530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582327864, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582327887, "dur":23547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582351455, "dur":142636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582494095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582494102, "dur":22928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582517053, "dur":131409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582648467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582648475, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582650920, "dur":81474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582732400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582732411, "dur":136222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582868650, "dur":45439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582914093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582914098, "dur":21332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582935445, "dur":29683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317582965132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317582965140, "dur":172157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583137319, "dur":29847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583167171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317583167179, "dur":96965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583264163, "dur":195718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583459909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317583459937, "dur":134646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583594601, "dur":67263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583661874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317583661954, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583663872, "dur":45386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583709265, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317583709277, "dur":50165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317583759457, "dur":258368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317584017834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584017868, "dur":29197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683317584047080, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683317584047093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584047098, "dur":7413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683317584054532, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683317584054566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584054572, "dur":24517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683317584079114, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1683317584079133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584079140, "dur":131076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1683317584210230, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683317584210244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584210248, "dur":282380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683317584492655, "dur":1839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1683317584494503, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584494517, "dur":80119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1683317584574658, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Version/Into The Night V1.2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1683317584574677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683317584574680, "dur":318317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Version/Into The Night V1.2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1683317584893020, "dur":6252782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683317591232737, "dur":2687, "ph":"X", "name": "ProfilerWriteOutput" }
+,
